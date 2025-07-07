@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="keywords" content="merve biçer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>FİZMOB </title>
+<link rel="stylesheet" href="styles/egzersiz.css">
+</head>
+<body>
+     <!-- header başlangıç -->
+    <header class="header">
+  <a href="#" class="logo">
+    <img style="border-radius: 50%;" src="/resimleer/fizmob_logo.png" alt="logo" />
+  </a>
+
+  <nav class="navbar" id="navbar">
+    <a href="#" class="active">Ana Sayfa</a>
+    <a href="#menu1">Menü</a>
+    <a href="#hakkimiz">Hakkımızda</a>
+    
+
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <div class="buttons">
+    <button class="search-btn">
+      <i class="fas fa-search"></i>
+    </button>
+    <button class="menu-btn" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<!-- header bitiş -->
+ <!-- home basl -->
+<section>
+<h1 style="font-size: 48px; color: rgb(255, 255, 255);">OTOMATİK GERİ BİLDİRİM SİSTEMİ</h1>
+
+    <div class="row flex-md-row flex-column">
+      <div style="flex: 1;" class="image">
+        <img style="border-radius: 3rem;" src="/resimleer/otomatik_geribild.png" alt="">
+      </div>
+      <div style="flex:1" class="content">
+        <p>Fizmob’un entegre ettiği Otomatik Geri Bildirim Sistemi, egzersizlerin etkili ve güvenli bir şekilde gerçekleştirilmesini sağlamak amacıyla geliştirilmiştir. Sistem, akıllı telefon ve tabletlerin dahili kameralarını kullanarak kullanıcıların hareketlerini gerçek zamanlı olarak analiz eder. Bu sayede uygulama, egzersiz sırasında yapılan hataları tespit edebilir ve kullanıcıyı anında uyararak doğru forma yönlendirir</p>
+    <br>
+    <p>Hareket algılama teknolojisiyle desteklenen bu sistem, sadece egzersizleri kontrol etmekle kalmaz, aynı zamanda kullanıcı performansını takip ederek ilerlemeyi ölçer. Hedeflenen kas gruplarının doğru çalıştırılması, yanlış duruşların düzeltilmesi ve egzersiz süresinin optimize edilmesi gibi detaylar, sistem tarafından otomatik olarak değerlendirilir. Bu sayede kullanıcılar, tıpkı bir fizyoterapistin gözetimindeymiş gibi güvenle egzersiz yapabilirler.</p>
+    <br>
+    <p>Otomatik geri bildirim, yalnızca tedavi sürecini daha etkili hale getirmekle kalmaz, aynı zamanda yaralanma riskini de önemli ölçüde azaltır. Yanlış yapılan hareketlerin erken tespiti, olası kas zorlanmalarının ya da eklem yaralanmalarının önüne geçilmesini sağlar. Bu da kullanıcıların hem fiziksel hem de psikolojik olarak kendilerini daha güvende hissetmelerini sağlar.</p>
+    <br>
+    <p>Fizmob’un bu akıllı teknolojisi, uzaktan tedavi süreçlerine yepyeni bir boyut kazandırır. Egzersiz sürecini pasif bir uygulama takip sistemi olmaktan çıkarıp, aktif ve kişiselleştirilmiş bir dijital terapiste dönüştürür. Kullanıcılar her hareketlerinde desteklenir, motive edilir ve sürece bilinçli şekilde katılır. Bu da Fizmob’u sadece bir uygulama değil, aynı zamanda interaktif bir sağlık çözümü haline getirir.</p>
+    
+      </div>
+
+ 
+  </div>
+  </section>
+  <!-- home bitis -->
+   <script>
+  function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
+</script>
+
+</body>
+
+</html>

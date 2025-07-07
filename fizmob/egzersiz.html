@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="keywords" content="merve biçer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>FİZMOB </title>
+<link rel="stylesheet" href="styles/egzersiz.css">
+</head>
+<body>
+     <!-- header başlangıç -->
+    <header class="header">
+  <a href="#" class="logo">
+    <img style="border-radius: 50%;" src="/resimleer/fizmob_logo.png" alt="logo" />
+  </a>
+
+  <nav class="navbar" id="navbar">
+    <a href="#" class="active">Ana Sayfa</a>
+    <a href="#menu1">Menü</a>
+    <a href="#hakkimiz">Hakkımızda</a>
+    
+
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <div class="buttons">
+    <button class="search-btn">
+      <i class="fas fa-search"></i>
+    </button>
+    <button class="menu-btn" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<!-- header bitiş -->
+ <!-- home basl -->
+<section>
+<h1 style="font-size: 48px; color: rgb(255, 255, 255);">İNTERAKTİF EGZERSİZ KILAVUZLARI </h1>
+
+    <div class="row flex-md-row flex-column">
+      <div style="flex: 1;" class="image">
+        <img style="border-radius: 3rem;" src="/resimleer/interaktif_egzersiz.png" alt="">
+      </div>
+      <div style="flex:1" class="content">
+
+        
+        <p>Fizmob’un interaktif egzersiz kılavuzları, kullanıcıların fizyoterapi sürecini en doğru şekilde takip edebilmesi için özel olarak geliştirilmiştir. Bu kılavuzlar sayesinde her egzersiz, görsel olarak desteklenen animasyonlarla açıklanır ve hastaların hareketleri doğru formda uygulamaları sağlanır. Geleneksel fiziksel terapi yöntemlerinin aksine, kullanıcıların uzman gözetiminde gibi hissetmeleri amaçlanır.</p>
+    <br>
+    <p>Animasyonlu egzersiz talimatları, özellikle ilk kez egzersiz yapacak veya hareket kabiliyeti kısıtlı bireyler için büyük kolaylık sunar. Adım adım yönlendirmeler, egzersizin hangi kas grubunu hedeflediğini ve nasıl uygulanması gerektiğini anlaşılır bir dille aktarır. Böylece kullanıcılar, egzersiz sırasında tereddüt yaşamadan süreci takip edebilir ve tedaviye daha güçlü bir bağlılık geliştirir.</p>
+    <br>
+    <p>İnteraktif kılavuzlar yalnızca yönlendirme sağlamakla kalmaz, aynı zamanda yaralanma riskini de önemli ölçüde azaltır. Doğru formda yapılan egzersizler, yanlış teknik nedeniyle oluşabilecek komplikasyonların önüne geçer. Bu da tedavi sürecinin güvenli, etkili ve sürdürülebilir hale gelmesini sağlar.</p>
+    <br>
+    <p>Sonuç olarak, Fizmob’un sunduğu bu akıllı ve etkileşimli sistem, fiziksel tedavinin dijital dünyaya başarılı bir şekilde entegre edilmesini temsil eder. Kullanıcılar zamandan ve mekândan bağımsız olarak tedavi süreçlerini yönetebilir, uzman desteği ile koordineli biçimde gelişimlerini sürdürebilir. İnteraktif egzersiz kılavuzları, Fizmob’un tedavide güvenilir bir yol arkadaşı olduğunu bir kez daha kanıtlar.</p>
+    
+      </div>
+
+ 
+  </div>
+  </section>
+  <!-- home bitis -->
+   <script>
+  function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
+</script>
+
+</body>
+
+</html>

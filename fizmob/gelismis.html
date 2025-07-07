@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="keywords" content="merve biçer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>FİZMOB </title>
+<link rel="stylesheet" href="styles/egzersiz.css">
+</head>
+<body>
+     <!-- header başlangıç -->
+    <header class="header">
+  <a href="#" class="logo">
+    <img style="border-radius: 50%;" src="/resimleer/fizmob_logo.png" alt="logo" />
+  </a>
+
+  <nav class="navbar" id="navbar">
+    <a href="#" class="active">Ana Sayfa</a>
+    <a href="#menu1">Menü</a>
+    <a href="#hakkimiz">Hakkımızda</a>
+    
+
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <div class="buttons">
+    <button class="search-btn">
+      <i class="fas fa-search"></i>
+    </button>
+    <button class="menu-btn" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<!-- header bitiş -->
+ <!-- home basl -->
+<section>
+<h1 style="font-size: 48px; color: rgb(255, 255, 255);">GELİŞMİŞ ERİŞİLEBİLİRLİK </h1>
+
+    <div class="row flex-md-row flex-column">
+      <div style="flex: 1;" class="image">
+        <img style="border-radius: 3rem;" src="/resimleer/gelismis_erisilebilrilik.png" alt="">
+      </div>
+      <div style="flex:1" class="content">
+<p>Fizmob, modern sağlık hizmetlerinin en büyük sorunlarından biri olan erişilebilirliği çözmeyi hedefleyerek geliştirilmiştir. Geleneksel fizik tedavi yöntemleri, çoğu zaman belirli bir konuma gitmeyi, belirli saatlere uymayı ve fiziksel hareket kabiliyetine sahip olmayı gerektirir. Ancak herkesin bu koşulları karşılayabilmesi mümkün değildir. Fizmob bu noktada devreye girerek, konumdan ve zamandan bağımsız bir tedavi deneyimi sunar.</p>
+    <br>
+    <p>Uygulama, özellikle kırsal bölgelerde yaşayan, sağlık merkezlerine ulaşmakta zorlanan ya da kronik rahatsızlıklar nedeniyle hareket kabiliyeti kısıtlı bireyler için eşsiz bir avantaj sağlar. İnternet bağlantısı olan her cihaz üzerinden erişilebilen Fizmob, kullanıcıların evlerinin konforunda kaliteli fizik tedavi desteği alabilmelerini mümkün kılar. Böylece coğrafi engeller veya ulaşım sorunları tedaviye engel olmaktan çıkar.</p>
+    <br>
+<p>Gelişmiş erişilebilirlik sadece fiziksel sınırlamaları değil, aynı zamanda zaman yönetimiyle ilgili sorunları da çözüme kavuşturur. Yoğun iş temposuna sahip bireyler, öğrenciler veya bakım verenler, terapi seanslarını kendi programlarına uygun şekilde planlayabilir. Bu esneklik, kullanıcıların tedavi süreçlerine daha düzenli ve uzun süreli katılım göstermesini sağlar.</p>  
+    <br>
+<p>Ayrıca, uygulamanın kullanıcı dostu arayüzü ve görsel olarak desteklenmiş egzersiz kılavuzları, teknolojiyi aktif olarak kullanamayan yaşlı bireyler veya teknolojiye yabancı olan kullanıcılar için bile erişimi kolaylaştırır. Basit gezinme yapısı ve anlaşılır içerikler, tüm kullanıcıların ihtiyaç duydukları bakımı rahatlıkla alabilmelerini sağlar.
+
+</p>    
+<br>
+<p>Sonuç olarak, Fizmob yalnızca bir fizyoterapi uygulaması değil; sağlık hizmetlerinin daha adil, daha kapsayıcı ve daha erişilebilir hale gelmesini sağlayan dijital bir çözümdür. Herkes için sağlık mottosuyla geliştirilen Fizmob, bireylerin yaşam kalitesini artırırken aynı zamanda toplumsal sağlık hizmetlerine erişimi dönüştürmeyi amaçlamaktadır.</p>
+      </div>
+
+ 
+  </div>
+  </section>
+  <!-- home bitis -->
+   <script>
+  function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    navbar.classList.toggle("active");
+  }
+</script>
+
+</body>
+
+</html>

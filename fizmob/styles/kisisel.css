@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root {
@@ -60,8 +59,7 @@ section{
 .logo img {
     height: 5rem;
   } 
-
-  /* header başlagıç*/
+/* header başlagıç*/
 
 
 .header {
@@ -118,7 +116,7 @@ section{
   color: var(--black-color);
 }
 
-/* Hamburger menü mobilde görünür olacak */
+
 .menu-btn {
   display: none;
 }
@@ -161,65 +159,7 @@ section{
 }
 
   /*header bitiş*/
-  /*home başlangıç*/
-  .home{
-    min-height: 100vh;
-    background:url(../resimleer/Adsız\ tasarım.png) no-repeat ;
-    background-size:cover;
-    background-position: center;
-    margin-top: -14.5rem;
-    display: flex;
-    align-items: center;
-  }
-  .home .content {
-    max-width: 65rem;
-  }
-  .home .content h3{
-    font-size: 6rem;
-    color: rgb(248, 252, 225);
-  }
-  .home .content p{
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.8;
-    padding: 1rem 0;
-    color: #0d0470;
-  }
-  /*home bitiş*/
-
-  /*menü başlangıç*/
-.menu .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-gap: 2rem;
-}
-.menu .box-container .box{
-    
-    padding: 3rem;
-    background-color: #fff;
-    border-radius: 3rem;
-    background-color:#fff ;
-    min-height: 40rem;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-between;
-}
-.menu .box-container .box img{
-     width: 100%;
-    height: 250px;         /* Sabit yükseklik */
-    object-fit: contain;
-}
-.menu-category{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #222;
-    margin-top: 1rem;
-    display: block;
-}
-
-  /*menü bitiş*/
-  /* hakkımızda başl */
+    /* hakkımızda başl */
   .about .row{
     display: flex;
     justify-content: space-between;
@@ -247,64 +187,30 @@ gap: 2rem;
   }
 
   /* hakkımızda bitiş */
-/* iletişim başl */
-.iletisim p{
-    font-size: 18px;
-color:var(--main-color) ;
-margin-bottom: 4px;}
-.iletisimbox{
-    background-color: white;
-    padding: 30px;
-    border-radius: 3rem;
-}
-.form{
-    background-color: white;
-    padding: 30px;
-    border-radius: 3rem;
-}
-.form .form-group{
-    font-size: 17px;
-    
-}
-/* iletişim bitiş */
-/* harita başl */
-.harita iframe{
-    border-radius: 3rem;
+
+  /* paragraf başl */
+  .about .row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
     align-items: center;
-    width: 100%;
-}
-/* harita bitiş */
-/* son */
-.son{
-    background-color: white;
-    margin: 105px;
-    padding: 30px;
-    border-radius: 3rem;
-}
-.sonhakk p{
-    font-size: 15px;
-}
-.sonhakk .butto{
-    margin-left: 90px;
-    font-size: x-large;
-    border-bottom: 0.1rem solid transparent;
-  transition: 0.3s ease;
-}
-.link a{
-    font-size: 20px;
-    color: #ef6b6d;
-
-}
-.link a:hover{
+  }
+  .about .row .image{
+    flex: 1 1 45rem;
     
-    color: var(--main-color);
-    
-}
-.logooo img{
-    width:50%;
+  }
+  .about .row img{
+ width: 100%;
+ border-radius: 3rem;
+  
+  }
+  .content p{
+    font-size: 16px;
+    color: rgb(254, 254, 254);
+  }
+  .content h1{
+    font-size: 24px;
+    color: antiquewhite;
+  }
 
-}
-.logooo{
-    text-align: center;
-}
-/* son */
+  /* parag bitis */
